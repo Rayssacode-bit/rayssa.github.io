@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nossa História 🐭💌</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <style>
+    body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Comfortaa', cursive;
+      background: linear-gradient(#e2f5ff, #fff0f5);
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #ffd1ec;
+      padding: 2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 2.2rem;
+      color: #aa60c7;
+    }
+    main {
+      padding: 2rem;
+      flex: 1;
+    }
+    .story {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff8ff;
+      padding: 1.5rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 0 10px #e0c1f1;
+    }
+    .story img {
+      max-width: 100%;
+      border-radius: 1rem;
+      margin: 1rem 0;
+    }
+    .back-btn {
+      margin-top: 2rem;
+      background-color: #c8b4e4;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .back-btn:hover {
+      background-color: #a793cf;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Como tudo começou ✨</h1>
+  </header>
+  <main>
+    <div class="story">
+      <p>Era só mais um mapa no Transformice... até que <strong>mazettinho</strong> apareceu na minha sala.</p>
+      <p>Entre um queijo e outro, a zoiuda aqui se encantou. E ele, o ratinho branquinho mais fofo que já vi, ficou.</p>
+      <img src="coloque-aqui-um-print.png" alt="Print do jogo ou conversa">
+      <p>A gente ria, se zoava, mandava o gif da Pinga toda hora e trocava emojis bestas tipo 💩 e 🦶.</p>
+      <p>De repente, já tava chamando ele de <strong>bê</strong>. E ele me chamando de <strong>vida</strong>. 🥰</p>
+    </div>
+    <button class="back-btn" onclick="window.location.href='index.html'">← Voltar ao início</button>
+  </main>
+  <div class="footer">
+    Continuação da nossa aventura 💞
+  </div>
+</body>
+</html>
